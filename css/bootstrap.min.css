@@ -3082,14 +3082,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #0b3468;
-    border-color: #0b3468
+    background-color: #f07b17;
+    border-color: #f07b17
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #0074bd;
-    border-color: #0074bd
+    background-color: #e24938;
+    border-color: #e24938
 }
 
 .btn-check:focus+.btn-primary,
@@ -3397,8 +3397,8 @@ fieldset:disabled .btn {
 
 .btn-dark {
     color: #fff;
-    background-color: #0b3468;
-    border-color: #0b3468
+    background-color: #000000;
+    border-color: #000000
 }
 
 .btn-dark:hover {
@@ -8288,7 +8288,7 @@ fieldset:disabled .btn {
 }
 
 .text-secondary {
-    color: #6c757d !important
+    color: #f07b17  !important
 }
 
 .text-success {
@@ -8299,6 +8299,9 @@ fieldset:disabled .btn {
     color: #0dcaf0 !important
 }
 
+.py-6{
+    padding: 4rem 0rem;
+}
 .text-warning {
     color: #ffc107 !important
 }
@@ -8340,7 +8343,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #0c356a !important
+    background-color: #f07b17 !important
 }
 
 .bg-secondary {

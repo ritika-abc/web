@@ -589,3 +589,40 @@
 .jus{
     text-align: justify !important;
 }
+
+.top-ani {
+    animation: ani 4s infinite linear;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+}
+
+.sv {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(231 68 31);
+    text-stroke-width: 2px;
+    text-stroke-color: white;
+}
+.product-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+.product-item img {
+    transition: .5s;
+}
+
+.product-item:hover img {
+    transform: scale(1.1);
+}
+
+.product-item small a:hover {
+    color: var(--primary) !important;
+}

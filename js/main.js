@@ -99,7 +99,30 @@
         }
     });
 
-
+    $(".carousel-cat").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 25,
+        loop: true,
+        // center: true,
+        dots: false,
+        nav: false,
+        navText : [
+            '<i class="bi bi-chevron-left"></i>',
+            '<i class="bi bi-chevron-right"></i>'
+        ],
+        responsive: {
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:5
+            }
+        }
+    });
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
