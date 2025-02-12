@@ -30,11 +30,14 @@
     gap: 5px;
 }
 .rot{
-    animation: an 86s infinite linear;
+    animation: an 4s infinite ;
 }
 @keyframes an{
-    100%{
-        transform: rotate(360deg);
+     0%{
+        transform: rotate(0DEG);
+    }
+    50%{
+        transform: rotate(10deg);
     }
 }
 /*** Spinner ***/
@@ -605,11 +608,9 @@
 }
 
 .sv {
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(231 68 31);
-    text-stroke-width: 2px;
-    text-stroke-color: white;
+   
+  
+     color: rgb(231 68 31);
 }
 .product-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);

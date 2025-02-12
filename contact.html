@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Whitefox ventures LLP</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Whitefox ventures LLP" name="keywords">
+    <meta content="Whitefox ventures LLP" name="description">
+
+    <!-- Favicon -->
+    <link href="image/logo/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .carousel_image {
+            /* padding: 1rem 0rem; */
+        }
+
+        .carousel_image>img {
+            object-fit: cover;
+        }
+
+        .carousel_image>img {
+            height: 150px !important;
+            width: 150px !important;
+            border-radius: 50%;
+            transform: translateY(0px);
+            transition: 0.4s;
+        }
+
+        .carousel_image:hover img {
+            transform: translateY(-10px);
+
+        }
+
+        .cards_animation {
+            transition: 0.3s;
+            border: 1px solid transparent;
+            transform: translateY(0px);
+
+        }
+
+        .cards_animation:hover {
+            transform: translateY(-20px);
+
+        }
+
+        .pro_box {
+            height: 250px;
+            width: 100%;
+            border: 2px solid red;
+            overflow: hidden;
+        }
+
+        .pro_box>img {
+            transition: 0.3s;
+            transform: translateY(-10px);
+
+        }
+
+        .cards_animation:hover .pro_box>img {
+            transform: translateY(-10px);
+
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-danger p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-4  px-5 text-start text-white">
+
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="fa fa-phone-alt  text-white me-2"></small>
+                    <small>+91 9438862542 || +91 9437812348</small>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="h-100 d-inline-flex align-items-center me-4 ">
+
+                    <marquee behavior="" direction=""> <small class="  text-white me-2">At Whitefox Ventures LLP, we are
+                            dedicated to providing high-quality, reliable, and effective cleaning products for your
+                            everyday needs.
+
+                        </small></marquee>
+                </div>
+            </div>
+            <div class="col-lg-2   px-5 text-end">
+
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 py-2">
+        <a href="index.html" class="navbar-brand  px-4 px-lg-5">
+            <img src="image/logo/logo.jpg" height="70px" width="170px" alt="Mahalaxmi Imports N Exports">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link  ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="all-product.html" class="nav-item nav-link">Diversify Product</a>
+
+                <!-- <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Products</a>
+            <div class="dropdown-menu bg-light m-0">
+                <a href="feature.html" class="dropdown-item">Feature</a>
+                 
+            </div>
+        </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Enquiry Now<i
+            class="fa fa-arrow-right ms-3"></i></a> -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+  
+
+ <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div class="container-fluid   py-5 mb-5" style="background-image: linear-gradient(#0b34686e,#0b34686e), url(image/banner/contact\ \(1\).jpg);
+    background-position: left center;background-size:cover">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    
+                    <li class="breadcrumb-item text-white active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3">Get in Touch with Whitefox Ventures LLP</h1>
+                <p class="mb-5">We’d love to hear from you! Whether you have questions about our products, need assistance with an order, or would like more information about our services, our team is here to help.</p>
+            </div>
+            <!-- <div class="row contact-info justify-content-center position-relative     mb-5">
+                <div class="col-lg-4">
+                    <a href="tel:+917744850765" class=" text-center   p-4">
+                        <div class="icon-box-light  ">
+                            <i class="bi bi-phone text-dark fa-3x"></i>
+                        </div>
+                        <div class="ms-3 text-center">
+                            <h5 class="text- ">Call Us</h5>
+                            <h5 class="text-  mb-0">+91 7744850765</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="mailto:mimpex@mine.org.in" class="  text-center  p-4">
+                        <div class="icon-box-light f ">
+                            <i class="bi bi-envelope text-dark fa-3x"></i>
+                        </div>
+                        <div class="ms-3 text-center">
+                            <h5 class="text- ">Mail Us</h5>
+                            <h5 class="text-  mb-0">mimpex@mine.org.in</h5>
+                        </div>
+                    </a>
+                </div>
+            </div> -->
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control name" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control email" id="mail" placeholder="Your Email">
+                                    <label for="mail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control phone" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Your Mobile</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control message" placeholder="Leave a message here" id="message"
+                                        style="height: 130px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" onclick="contact()">Submit Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 wow fadeInUp h-100" data-wow-delay="0.5s">
+                    <div class="elementor-widget-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1882.4707038809483!2d84.78315310769037!3d19.328348637054443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d51f29b22b289%3A0xa10501c85ad643d1!2sBhajaram%20Vihar!5e0!3m2!1sen!2sin!4v1728744932965!5m2!1sen!2sin" width=100% height="350px" class="rounded shadow-lg border border-2 p-1" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="background-color: #000000;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9438862542 <small>(Working Hours Monday to Friday 9
+                        am to 6 pm) </small>  </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> +91 9437812348</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>whitefoxventures@ecolyn.in</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Products</a>
+                
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Location</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>
+                        2nd lane bhajaram vihar
+                        Near Harsha vihar,7th Lane
+                        BRAHMAPUR(Ganjam.)
+                        ODISHA.
+                        Pin.:-760002</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <p>At Whitefox Ventures LLP, we are dedicated to providing high-quality, reliable, and effective
+                        cleaning products for your everyday needs..... </p>
+                    <a href="https://web2export.com" target="_blank">
+                        <img src="image/logo/web2export.jpg" class="rounded shadow-lg" height="70px" width="200px" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="/" target="_blank"> Whitefox Ventures LLP</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+
+                        Designed By <a class="" href="https://web2export.com">web2export.com</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">Whitefox ventures LLP
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-2">
+                            <input type="text" class="form-control name" value="" placeholder="Enter Your Name" />
+                        </div>
+                        <div class="col-12 col-md-6 my-2">
+                            <input type="number" class="form-control number" value="" placeholder="Enter Your Number" />
+                        </div>
+                        <div class="col-12  my-2">
+                            <input type="email" class="form-control email" value="" placeholder="Enter Your Email" />
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" onclick="go()" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function contact() {
+            var na = document.querySelector(".name").value;
+            var em = document.querySelector(".email").value;
+            var phone = document.querySelector(".phone").value;
+            var mes = document.querySelector(".message").value;
+            var url1 = "https://wa.me/919438862542?text=" +
+                "Name: " +
+                na + " " +
+                "Email: " +
+                em + " " +
+                "Phone :" + phone +
+                "Message :" + mes;
+            window.open(url1, "_blank").focus();
+        }
+    </script>
+
+    <script>
+        function go() {
+            var name = document.querySelector(".name").value;
+            var email = document.querySelector(".email").value;
+            var number = document.querySelector(".number").value;
+            var url = "https://wa.me/919438862542?text=" +
+                "Name: " +
+                name + " " +
+                "Number: " +
+                number + " " +
+                "Email :" + email;
+            window.open(url, "_blank").focus();
+        }
+    </script>
+ <span class="fixed-bottom pb-4 px-2">
+    <a href="https://wa.me/919438862542?text=">
+        <img src="wp.jpg" height="50px" width="50px" alt="">
+    </a>
+</span>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
