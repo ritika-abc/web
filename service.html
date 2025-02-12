@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Whitefox ventures LLP</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Whitefox ventures LLP" name="keywords">
+    <meta content="Whitefox ventures LLP" name="description">
+
+    <!-- Favicon -->
+    <link href="image/logo/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .carousel_image {
+            /* padding: 1rem 0rem; */
+        }
+
+        .carousel_image>img {
+            object-fit: cover;
+        }
+
+        .carousel_image>img {
+            height: 150px !important;
+            width: 150px !important;
+            border-radius: 50%;
+            transform: translateY(0px);
+            transition: 0.4s;
+        }
+
+        .carousel_image:hover img {
+            transform: translateY(-10px);
+
+        }
+
+        .cards_animation {
+            transition: 0.3s;
+            border: 1px solid transparent;
+            transform: translateY(0px);
+
+        }
+
+        .cards_animation:hover {
+            transform: translateY(-20px);
+
+        }
+
+        .pro_box {
+            height: 250px;
+            width: 100%;
+            border: 2px solid red;
+            overflow: hidden;
+        }
+
+        .pro_box>img {
+            transition: 0.3s;
+            transform: translateY(-10px);
+
+        }
+
+        .cards_animation:hover .pro_box>img {
+            transform: translateY(-10px);
+
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-danger p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-4  px-5 text-start text-white">
+
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="fa fa-phone-alt  text-white me-2"></small>
+                    <small>+91 9438862542 || +91 9437812348</small>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="h-100 d-inline-flex align-items-center me-4 ">
+
+                    <marquee behavior="" direction=""> <small class="  text-white me-2">At Whitefox Ventures LLP, we are
+                            dedicated to providing high-quality, reliable, and effective cleaning products for your
+                            everyday needs.
+
+                        </small></marquee>
+                </div>
+            </div>
+            <div class="col-lg-2   px-5 text-end">
+
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 py-2">
+        <a href="index.html" class="navbar-brand  px-4 px-lg-5">
+            <img src="image/logo/logo.jpg" height="70px" width="170px" alt="Mahalaxmi Imports N Exports">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link  ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="all-product.html" class="nav-item nav-link">Diversify Product</a>
+
+                <!-- <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Products</a>
+            <div class="dropdown-menu bg-light m-0">
+                <a href="feature.html" class="dropdown-item">Feature</a>
+                 
+            </div>
+        </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Enquiry Now<i
+            class="fa fa-arrow-right ms-3"></i></a> -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5"
+        style="background-image: url(image/banner/service-banner.jpg);background-size:cover;background-position:center">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Services</a></li>
+
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Our Services</h6>
+                <h1 class="mb-4">Whitefox ventures LLP</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="image/banner/m1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+
+                            <h5 class="mb-3 mt-3">Comprehensive Cleaning Solutions</h5>
+                            <ul class="mt-3">
+                               
+                                <li>Products designed for both home and commercial spaces.</li>
+                                <li>Tailored solutions to meet specific cleaning requirements</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="image/banner/m2.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <!--<div class="service-icon">-->
+                            <!--    <i class="fa-solid fa-book fa-3x"></i>-->
+                            <!--</div>-->
+                            <h5 class="mb-3 mt-3">Eco-Friendly Product Line</h5>
+                            <ul class="mt-3">
+                                <li>Commitment to using safe, non-toxic ingredients that are gentle on the environment.
+                                </li>
+                                <li>Sustainable packaging options to minimize waste.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="image/banner/m3.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <!--<div class="service-icon">-->
+                            <!--    <i class="fa fa-lightbulb fa-3x"></i>-->
+                            <!--</div>-->
+                            <h5 class="mb-3 mt-3">Product Quality Assurance</h5>
+                            <ul class="mt-3">
+                                <li>Rigorous testing to ensure high-quality standards.</li>
+                                <li> Continuous improvement in product performance and safety.</li>
+                            </ul >
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Feature Start -->
+    <div class="container overflow-hidden py-5 px-lg-0 my-5">
+        <div class="container   py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+
+                    <h2 class="mb-5">Our Product Features</h2>
+
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <div class="ms-4">
+                            <h5 class="text-primary"> Premium Quality </h5>
+                            <p class="mb-0">We use only the highest-quality ingredients in all of our products to ensure
+                                that each one delivers top-tier performance. From our Dishwash Gel to our Toilet
+                                Cleaner, every product is crafted with precision to provide superior results without
+                                compromising on safety.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+
+                        <div class="ms-4">
+                            <h5 class="text-primary">Effective and Efficient</h5>
+                            <p class="mb-0">Our cleaning products are designed to tackle tough messes with ease. Whether
+                                you’re dealing with stubborn grease, grime, or stains, our solutions are formulated to
+                                deliver powerful results in less time. Our Disinfectant Surface Cleaner and Fabric
+                                Softener ensure your spaces and fabrics are both clean and fresh, with minimal effort
+                                required.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+
+                        <div class="ms-4">
+                            <h5 class="text-primary fw-bold"> Eco-Friendly Formulas</h5>
+                            <p class="mb-0">We are committed to sustainability and environmental responsibility. Our
+                                products are made with eco-conscious ingredients that are biodegradable and safe for
+                                both you and the planet. Our range, including White Naphthalene Balls, provides you with
+                                effective cleaning options while minimizing environmental impact.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5 pe-lg-0 wow fadeInRight text-center" data-wow-delay="0.1s">
+                    <div class="position-relative h-100">
+                        <!--<div class="bg3"></div>-->
+                        <div class="about_inner text-center   mb-0 mt-0">
+                            <!-- <video src="image/about.mp4" class="border border-2 text-center border-dark   p-2 rounded"
+                                type="video/mp4" autoplay muted loop style="object-fit: cover;" height="550px"
+                                width="100%" alt="vedio">
+                            </video> -->
+                            <img src="product.png" class="rot" height="auto" width="100%" alt="">
+                        </div>
+                        <!-- <svg viewBox="0 0 200 200" style="z-index: -1;" class=" position-absolute start-0 shape top-0 "
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill=""
+                                d="M36.9,-36.9C45.6,-28.1,49.1,-14.1,48,-1.1C46.9,11.8,41.2,23.6,32.4,36.9C23.6,50.1,11.8,64.6,-0.2,64.8C-12.2,65,-24.4,50.8,-40.2,37.6C-55.9,24.4,-75.1,12.2,-80,-4.9C-84.8,-22,-75.4,-43.9,-59.7,-52.7C-43.9,-61.5,-22,-57.1,-4,-53.1C14.1,-49.2,28.1,-45.7,36.9,-36.9Z"
+                                transform="translate(100 100)" />
+                        </svg> -->
+                        <!-- <img src="image/export.jpg" height="100%" width="100%" style="object-fit: cover;" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote Start -->
+    <!-- Feature Start -->
+    <!-- Features Start -->
+    <div class="container-fluid feature mt-5 wow fadeInUp py-5" data-wow-delay="0.1s"
+        style="background-image: url(image/banner/woman-using-cleaning-solution.jpg);background-size:cover;background-attachment: fixed;">
+        <div class="container">
+            <div class="row g-0 bg-white">
+                <div class="col-lg-12 pt-lg-5  ">
+                    <div class="fruits-choose-wrapper-all  -white p-4">
+                        <div class="fruits-choose-title my-5    ">
+                            <h3 class="display-6   fw-bold">Benefits of Choosing <br> <q style="color: transparent;
+                                -webkit-text-stroke-width: 2px;
+                                -webkit-text-stroke-color: rgb(228 63 16);">Whitefox Ventures LLP</q></h3>
+                             
+                        </div>
+                        <div class="row  ">
+                            <div class="col-sm-6">
+                                <div class="fruits-choose-wrapper text-  justify">
+                                    <div class="single-fruits-choose landscape-single-fruit">
+                                        <div class="fruits-choose-serial ">
+                                            <h3 class="light-dark">01</h3>
+                                        </div>
+                                        <div class="fruits-choose-content">
+                                            <h4 class="light-dark">High-Quality Products</h4>
+                                            <p>We take pride in delivering products crafted with precision and care. Each item is rigorously tested to ensure it meets our high standards for performance, reliability, and effectiveness, ensuring that you get the best cleaning results every time.</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-fruits-choose">
+                                        <div class="fruits-choose-serial">
+                                            <h3 class="light-dark">02</h3>
+                                        </div>
+                                        <div class="fruits-choose-content">
+                                            <h4 class="light-dark">Eco-Friendly Approach</h4>
+                                            <p>At Whitefox Ventures LLP, we are committed to environmental responsibility. Our products are made using safe, non-toxic ingredients, and we prioritize sustainable packaging solutions to reduce waste and support a cleaner planet.</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-fruits-choose">
+                                        <div class="fruits-choose-serial">
+                                            <h3 class="light-dark">03</h3>
+                                        </div>
+                                        <div class="fruits-choose-content">
+                                            <h4 class="light-dark">Wide Range of Cleaning Solutions</h4>
+                                            <p>Whether you're looking to maintain a home, office, or large commercial space, we offer a comprehensive selection of cleaning products to meet every need. Our range covers everything from daily cleaning essentials to specialized deep cleaning solutions, providing you with flexibility and convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fruits-choose-wrapper text-  justify">
+                                    <div class="single-fruits-choose landscape-single-fruit">
+                                        <div class="fruits-choose-serial text-warning">
+                                            <h3 class="light-dark">04</h3>
+                                        </div>
+                                        <div class="fruits-choose-content">
+                                            <h4 class="light-dark">Innovative and Effective Formulations</h4>
+                                            <p>We continuously innovate to bring you cleaning solutions that make your tasks easier and more efficient. Our expert team is always researching new ways to improve product effectiveness, ensuring that you benefit from the latest cleaning advancements.</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-fruits-choose">
+                                        <div class="fruits-choose-serial">
+                                            <h3 class="light-dark">05</h3>
+                                        </div>
+                                        <div class="fruits-choose-content">
+                                            <h4 class="light-dark"> Customer-Centric Service</h4>
+                                            <p>We understand the importance of personalized service. Our friendly and knowledgeable customer support team is always ready to assist with product selection, usage advice, and any other queries to help you make the most of your cleaning routine.</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-fruits-choose">
+                                        <div class="fruits-choose-serial">
+                                            <h3 class="light-dark">06</h3>
+                                        </div>
+                                        <div class="fruits-choose-content">
+                                            <h4 class="light-dark"> Affordable and Competitive Pricing</h4>
+                                            <p>We offer products that provide great value for money. With competitive pricing, bulk purchase discounts, and cost-effective solutions, we aim to ensure that quality cleaning products are accessible to everyone, whether at home or in business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ 
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="background-color: #000000;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9438862542 <small>(Working Hours Monday to
+                            Friday 9
+                            am to 6 pm) </small> </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> +91 9437812348</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>whitefoxventures@ecolyn.in</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Products</a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Location</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>
+                        2nd lane bhajaram vihar
+                        Near Harsha vihar,7th Lane
+                        BRAHMAPUR(Ganjam.)
+                        ODISHA.
+                        Pin.:-760002</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <p>At Whitefox Ventures LLP, we are dedicated to providing high-quality, reliable, and effective
+                        cleaning products for your everyday needs..... </p>
+                    <a href="https://web2export.com" target="_blank">
+                        <img src="image/logo/web2export.jpg" class="rounded shadow-lg" height="70px" width="200px"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="/" target="_blank"> Whitefox Ventures LLP</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+
+                        Designed By <a class="" href="https://web2export.com">web2export.com</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <span class="fixed-bottom pb-4 px-2">
+        <a href="https://wa.me/919438862542?text=">
+            <img src="wp.jpg" height="50px" width="50px" alt="">
+        </a>
+    </span>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
