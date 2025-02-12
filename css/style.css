@@ -627,3 +627,15 @@
 .product-item small a:hover {
     color: var(--primary) !important;
 }
+.product_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.699)), url(../image/banner/woman-using-cleaning-solution.jpg);
+    height: 400px;
+     
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
